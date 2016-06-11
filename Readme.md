@@ -15,12 +15,12 @@ New to Ruby? No worries! You can follow these instructions to install a local se
 
 #### Installing a Local Server
 
-First things first, you'll need to install Ruby 2.2.3. I recommend using the excellent [rbenv](https://github.com/sstephenson/rbenv),
+First things first, you'll need to install Ruby 2.3.1. I recommend using the excellent [rbenv](https://github.com/sstephenson/rbenv),
 and [ruby-build](https://github.com/sstephenson/ruby-build)
 
 ```bash
-rbenv install 2.2.3
-rbenv global 2.2.3
+rbenv install 2.3.1
+rbenv global 2.3.1
 ```
 
 ## Tests
@@ -43,4 +43,4 @@ Over 2 different people have contributed to the project, you can see them all he
 
 ## Copyright
 
-Copyright (c) 2015 Andrew Nesbitt. See [LICENSE](https://github.com/librariesio/gem_parser/blob/master/LICENSE) for details.
+Copyright (c) 2016 Andrew Nesbitt. See [LICENSE](https://github.com/librariesio/gem_parser/blob/master/LICENSE) for details.

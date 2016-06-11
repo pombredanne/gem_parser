@@ -12,12 +12,12 @@ class GemParser
   def dependencies
     parse.dependencies.inject([]) do |deps, dep|
       deps.push({
-        name: dep.name, 
-        version: dep.requirement.to_s, 
+        name: dep.name,
+        version: dep.requirement.to_s,
         type: dep.type,
         groups: dep.groups
       })
-    end
+    end.uniq
   end
 
   def parse
@@ -34,5 +34,9 @@ class GemParser
 
   def self.podfile(contents)
     new(:podfile, contents)
+  end
+
+  def self.podspec(contents)
+    new(:podspec, contents)
   end
 end

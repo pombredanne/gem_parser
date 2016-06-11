@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '2.3.1'
 
 gem 'bundler'
 gem 'sinatra'
-gem 'gemnasium-parser', github: 'librariesio/gemnasium-parser'
+gem 'librariesio-gem-parser', require: 'gemnasium/parser'
 gem 'oj'
 gem 'unicorn'
 
